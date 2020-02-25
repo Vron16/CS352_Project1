@@ -7,7 +7,7 @@ def ts_client(ts_hostname, ts_listen_port, queried_hostname):
 	# Create socket to communicate with the root server
 	try:
 		ts_socket = mysoc.socket(mysoc.AF_INET, mysoc.SOCK_STREAM)
-		print "[C]: Client socket to communicate with root server created"
+		print "[C]: Client socket to communicate with top-level server created"
 	except mysoc.error as err:
 		print "[C]: Could not create socket to establish client-top server connection due to error: %s" % err
 
@@ -101,7 +101,10 @@ def rs_client():
 
     	else:
     		raise ValueError('The server returned an unrecognized flag')
-
+    
+    input_file.close()
+    output_file.close()
+    rs_socket.close()
     return
 
 rs_client()
