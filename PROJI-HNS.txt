@@ -4,3 +4,6 @@ www.ibm.edu
 google.com
 www.google.com
 MX.RUTGERS.EDU
+www.mongodb.com
+www.express.co.uk
+www.nytimes.com

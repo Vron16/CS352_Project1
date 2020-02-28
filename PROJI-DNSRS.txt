@@ -3,4 +3,6 @@ mx.rutgers.edu 192.64.4.2 A
 kill.cs.rutgers.edu 182.48.3.2 A
 www.ibm.com 64.42.3.4 A
 www.google.com 8.6.4.2 A
+www.mongodb.com 191.4.5.2 A
+WwW.ExPress.CO.Uk 111.32.4.1 A
 localhost - NS
